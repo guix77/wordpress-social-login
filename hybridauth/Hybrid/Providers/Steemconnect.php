@@ -22,9 +22,9 @@ class Hybrid_Providers_Steemconnect extends Hybrid_Provider_Model_OAuth2
 		parent::initialize();
 
 		// Provider api end-points
-		$this->api->api_base_url  = "https://v2.steemconnect.com/api/";
+		$this->api->api_base_url  = "https://steemconnect.com/api/";
 		$this->api->authorize_url = "https://v2.steemconnect.com/oauth2/authorize";
-		$this->api->token_url     = "https://v2.steemconnect.com/api/oauth2/token";
+		$this->api->token_url     = "https://steemconnect.com/api/oauth2/token";
 
 		$this->api->curl_authenticate_method  = "GET";
 	}
